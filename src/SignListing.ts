@@ -9,7 +9,7 @@ export async function signListing(contractAddress: string, tokenId: string, addr
                 tokenAddress: contractAddress,
             },
             startAmount: price,
-            expirationTime: Math.round(Date.now() / 1000 + 60 * 60 * 24),
+            expirationTime: Math.round(Date.now() / 1000 + 60 * 60 * 24 * 20),
             accountAddress: address,
         })
 
